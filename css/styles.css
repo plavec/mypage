@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+.navbar {
+    border-top: 2px solid #00FFFF;
+    padding-top: 0;
+    line-height: 40px;    
+}
+.navbar-nav{
+    float: right;
+}
+
+/* dropdown hover*/
+ul{
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    padding: 5px 10px;
+    color: #f2f2f2;
+    background: #5bc0de;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #fff;
+    background: #46b8da;
+    text-decoration: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+    text-decoration: none;
+}
+/* display the dropdown */
+#carousel-example-generic{
+    margin-top: -20px;
+}
